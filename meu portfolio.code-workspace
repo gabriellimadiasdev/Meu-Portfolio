@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../dev em dobro/fundo magico"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "fundo magico"
+    }
+}

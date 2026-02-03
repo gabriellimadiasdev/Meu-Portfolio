@@ -1,0 +1,24 @@
+{
+  "name": "Gabriel Lima Portfolio",
+  "short_name": "GabrielDev",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#050510",
+  "theme_color": "#1db954",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/10061/10061763.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/10061/10061763.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "description": "Portfólio Full-Stack de Gabriel Lima - Desenvolvedor Web e Mobile."
+}
