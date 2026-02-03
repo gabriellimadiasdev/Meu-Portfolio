@@ -150,7 +150,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](L
 
 ---
 
-# Portfólio Gabriela Lima
+# Portfólio Gabriel Lima
 
 Toto je osobní portfolio webová stránka pro Gabriela Lima, front-end vývojáře. Stránka představuje různé aspekty jeho práce, včetně vývojových projektů, streamování, spirituality a obsahu souvisejícího s lékárnou. Obsahuje cyberpunk téma, PWA schopnosti a interaktivní prvky jako hudební přehrávač a chatbot.
 
@@ -373,5 +373,6 @@ Tento projekt je licencován pod MIT licencí - podívejte se na soubor [LICENSE
 プルリクエストの提出プロセスについては、[CONTRIBUTING.md](CONTRIBUTING.md) をお読みください。
 
 ### 📝 ライセンス
+
 
 このプロジェクトはMITライセンスの下でライセンスされています - 詳細は [LICENSE.md](LICENSE.md) ファイルを参照してください。
