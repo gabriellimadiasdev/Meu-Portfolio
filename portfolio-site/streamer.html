@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamer - Arasaka Division</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/vendor.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <style>
+        /* Override para tema Arasaka */
+        body { background-color: #050505; }
+        .navbar { background: rgba(20, 0, 0, 0.9) !important; border-bottom: 2px solid #ff0000; }
+        .text-arasaka { color: #ff0000; }
+        .bg-arasaka { background-color: #1a0000; }
+    </style>
+</head>
+<body class="arasaka-theme">
+    <canvas id="cyberpunk-bg"></canvas>
+    <div class="scanlines"></div>
+
+    <nav class="navbar navbar-expand-lg container-fluid py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <h3 class="m-0 fw-bold text-white">ARASAKA <span class="text-arasaka">MEDIA</span></h3>
+            </a>
+            <button class="navbar-toggler shadow-none bg-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end bg-black" tabindex="-1" id="offcanvasNavbar">
+                <div class="offcanvas-header border-bottom border-danger">
+                    <h5 class="offcanvas-title text-white">CORP MENU</h5>
+                    <button type="button" class="btn-close btn-close-white text-reset shadow-none" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav text-center align-items-center justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="nav-link pe-lg-5 text-white" href="index.html" data-i18n="nav-home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link pe-lg-5 text-white" href="developer.html" data-i18n="nav-dev">DEV</a></li>
+                        <li class="nav-item"><a class="nav-link pe-lg-5 text-white" href="video.html" data-i18n="nav-videos">Vídeos</a></li>
+                        <li class="nav-item"><a class="nav-link active pe-lg-5 text-arasaka" href="streamer.html" data-i18n="nav-streams">Streams</a></li>
+                        <li class="nav-item"><a class="nav-link pe-lg-5 text-white" href="spirituality.html" data-i18n="nav-spirituality">Espiritualidade</a></li>
+                        <li class="nav-item"><a class="nav-link pe-lg-5 text-white" href="pharmacy.html" data-i18n="nav-pharmacy">Farmacêutico</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="padding-large">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-2 fw-bold text-white">ELITE <span class="text-arasaka">STREAMING</span></h1>
+                    <p class="lead text-white-50 mt-4">
+                        Domínio total sobre o conteúdo digital. Gameplays de alta performance, análises técnicas e interação corporativa com a comunidade.
+                        Junte-se à elite.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3 mt-5">
+                        <a href="https://www.twitch.tv/luminisluxblade" target="_blank" class="btn btn-arasaka">
+                            <i class="fab fa-twitch"></i> Acessar Twitch
+                        </a>
+                        <a href="https://www.youtube.com/@LuminisLuxblade" target="_blank" class="btn btn-arasaka">
+                            <i class="fab fa-youtube"></i> Acessar YouTube
+                        </a>
+                        <a href="https://www.facebook.com/LuminisLuxblade" target="_blank" class="btn btn-arasaka">
+                            <i class="fab fa-facebook-f"></i> Acessar Facebook
+                        </a>
+                        <a href="https://discord.gg/dqt53GNKhM" target="_blank" class="btn btn-arasaka">
+                            <i class="fab fa-discord"></i> Acessar Discord
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                    <div class="arasaka-card p-5 rounded-0">
+                        <i class="fas fa-gamepad fa-5x text-arasaka mb-4"></i>
+                        <h3 class="text-white">STATUS: <span class="text-success">ONLINE</span></h3>
+                        <p class="text-white-50">Sistemas operacionais nominais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="padding-medium">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="arasaka-card p-4 h-100">
+                        <h4 class="text-white"><i class="fab fa-x-twitter text-arasaka me-2"></i> REDE X</h4>
+                        <p class="text-white-50">Atualizações em tempo real e inteligência de mercado.</p>
+                        <a href="https://x.com/luminisluxblade" target="_blank" class="btn btn-sm btn-outline-danger rounded-0">
+                            <i class="fab fa-x-twitter me-2"></i> Conectar
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="arasaka-card p-4 h-100">
+                        <h4 class="text-white"><i class="fab fa-facebook text-arasaka me-2"></i> FACEBOOK</h4>
+                        <p class="text-white-50">Base de dados da comunidade e eventos.</p>
+                        <a href="https://www.facebook.com/LuminisLuxblade/" target="_blank" class="btn btn-sm btn-outline-danger rounded-0">
+                            <i class="fab fa-facebook-f me-2"></i> Conectar
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="arasaka-card p-4 h-100">
+                        <h4 class="text-white"><i class="fab fa-instagram text-arasaka me-2"></i> INSTAGRAM</h4>
+                        <p class="text-white-50">Registros visuais e bastidores das operações.</p>
+                        <a href="https://www.instagram.com/luminisluxblade" target="_blank" class="btn btn-sm btn-outline-danger rounded-0">
+                            <i class="fab fa-instagram me-2"></i> Conectar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="src/js/jquery-1.11.0.min.js"></script>
+    <script src="src/js/cyberpunk-bg.js"></script>
+</body>
+</html>
